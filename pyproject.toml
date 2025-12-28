@@ -1,0 +1,16 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Simple RAG system"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.9.0",
+    "sentence-transformers>=3.3.1",
+    "langchain-text-splitters>=0.3.0",
+    "torch>=2.5.0",
+    "numpy>=1.26.0",
+    "tqdm>=4.67.0",
+    "openai",
+    "socksio==1.0.0"
+]

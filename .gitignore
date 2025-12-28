@@ -1,0 +1,12 @@
+# system
+.DS_Store
+.vscode/
+.venv/
+__pycache__/
+
+# data and FAISS
+data/
+index/
+
+# model weights
+models/
